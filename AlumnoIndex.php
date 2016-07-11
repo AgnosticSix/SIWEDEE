@@ -9,12 +9,12 @@
 </head>
 <body> 
 <?php
-session_start();
+/*session_start();
 if(!isset($_SESSION["usuario"]))
 {
 	header('Location: index.php');
 	exit();
-}
+}*/
 ?>
 <a href="logout.php" text-align="right">Cerrar Sesión</a>
 	<fieldset>
